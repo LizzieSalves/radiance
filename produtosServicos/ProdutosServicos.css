@@ -16,9 +16,13 @@ nav {
 
 #nav-container {
     padding: 40px 30px 0px 0px;
-    justify-self: right;
     border: #09000A;
-
+    position: absolute;
+    z-index: 0;
+    top: 0;
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
 }
 
 #nav-container img {
@@ -29,6 +33,11 @@ nav {
 #btn-burguer {
     background-color: transparent;
     border: transparent;
+    transition: all 0.3s ease;
+}
+
+#btn-burguer img{
+    pointer-events: none;
 }
 
 #nav-mobile {
@@ -43,6 +52,17 @@ nav {
 
 }
 
+@media (min-width: 920px) {
+    #nav-mobile{
+        display: none !important;
+    }
+
+}
+
+#nav-mobile ul {
+    position: relative;
+    z-index: 1;
+}
 #nav-mobile li {
     list-style: none;
     padding-bottom: 10px;
@@ -68,6 +88,7 @@ nav {
     padding-top: 80px;
     align-content: center;
     justify-items: center;
+    margin-top: 153px;
 
 }
 
