@@ -1,0 +1,433 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: "Poppins", serif;
+    color: #E4DAFD;
+    font-weight: 700;
+}
+
+/* nav */
+nav {
+    background-color: #09000A;
+
+}
+
+#nav-container {
+    padding: 40px 30px 0px 0px;
+    justify-self: right;
+    border: #09000A;
+
+}
+
+#nav-container img {
+    width: 70px;
+
+}
+
+#btn-burguer {
+    background-color: transparent;
+    border: transparent;
+}
+
+#nav-mobile {
+    display: none;
+    background-color: #DA60E0;
+    width: 100%;
+    height: 400px;
+    justify-items: center;
+    align-content: center;
+    font-size: 30px;
+    text-align: center;
+
+}
+
+#nav-mobile li {
+    list-style: none;
+    padding-bottom: 10px;
+}
+
+#nav-mobile a {
+    text-decoration: none;
+
+}
+
+/* origem */
+
+#inicio {
+    background-color: #09000A;
+    width: 100%;
+    height: auto;
+    align-content: center;
+    justify-items: center;
+    padding-bottom: 50px;
+}
+
+.container {
+    padding-top: 80px;
+    align-content: center;
+    justify-items: center;
+
+}
+
+.logo {
+    width: 350px;
+}
+
+#p-origem {
+    text-align: center;
+    font-size: 24px;
+    color: #E4DAFD;
+    padding: 15px 50px 50px 50px;
+    font-weight: 400;
+}
+
+.redes {
+    display: flex;
+    width: 35px;
+    margin: 0px 5px 0px 5px;
+    justify-content: center;
+
+}
+
+
+
+/* Produtos e serviços */
+#produtosServicos {
+    display: block;
+    background-color: #3F0753;
+    width: 100%;
+    height: auto;
+    justify-items: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.container h1 {
+    font-size: 40px;
+}
+
+.portifolio {
+    margin: 50px;
+    height: auto;
+    background-color: #E4DAFD;
+    justify-items: center;
+    padding-bottom: 50px;
+}
+
+.portifolio h1 {
+    color: #09000A;
+}
+
+.portifolio p {
+    color: #09000A;
+    padding-top: 20px;
+    text-align: center;
+    font-weight: 400;
+    font-size: 25px;
+    width: 80%;
+}
+
+.cards-produtosServicos {
+    display: grid;
+    grid-template-columns: auto;
+    gap: 20px;
+    justify-content: center;
+
+
+}
+
+.card {
+    display: block;
+    width: 100%;
+    height: auto;
+    justify-items: center;
+    border-radius: 5px;
+    margin-top: 50px;
+
+}
+
+
+
+.card-img {
+    background-color: #3F0753;
+    width: 100%;
+    height: auto;
+    border-radius: 5px 5px 0px 0px;
+
+}
+
+
+.card-img img {
+    width: 400px;
+    border-radius: 5px 5px 0px 0px;
+
+}
+
+.descricao {
+    background-color: #3F0753;
+    width: 100%;
+    height: 60px;
+    justify-items: center;
+    align-content: center;
+    border-radius: 0px 0px 5px 5px;
+
+}
+
+
+.descricao h6 {
+    font-size: 20px;
+    font-weight: 500;
+    align-content: center;
+
+}
+
+button {
+    background-color: #DA60E0;
+    padding: 10px 50px 10px 50px;
+    font-weight: 500;
+    font-size: 20px;
+    margin-top: 15px;
+    border: none;
+    border-radius: 5px;
+}
+
+button a {
+    text-decoration: none;
+}
+
+button:hover {
+    background-color: #6501AD;
+}
+
+h2 {
+    color: #09000A;
+    padding-top: 100px;
+    font-size: 32;
+    font-weight: 400;
+    text-align: center;
+}
+
+
+/* Otimização */
+#cards-otimizacao {
+    display: grid;
+    grid-template-columns: auto;
+    gap: 20px;
+    justify-content: center;
+
+
+}
+
+.card-icon {
+    background-color: #3F0753;
+    width: 190px;
+    height: 250px;
+    border-radius: 5px;
+    margin-top: 50px;
+    justify-items: center;
+    padding-top: 30px;
+
+}
+
+.card-icon img {
+    justify-self: center;
+}
+
+
+.card-icon h6 {
+    font-size: 20px;
+    padding-top: 10px;
+    text-align: center;
+    font-weight: 500;
+
+}
+
+
+/* junte-se */
+#junte-se {
+    background-color: #E4DAFD;
+    height: auto;
+    padding: 100px 50px 50px 50px;
+    justify-items: center;
+}
+
+#junte-se h1 {
+    color: #09000A;
+    text-align: center;
+    font-size: 25px;
+    margin-bottom: 30px;
+}
+
+/* Footer */
+footer {
+    background: linear-gradient(to bottom, #E4DAFD, #DA60E0, #3F0753);
+    justify-items: center;
+    height: auto;
+    
+
+}
+
+footer ul {
+    display: flex;
+    /* padding: 25px 0px 50px 0px;*/
+}
+
+footer li {
+    list-style: none;
+
+}
+
+footer a {
+    text-decoration: none;
+    font-size: 20px;
+    padding: 0px 20px 0px 20px;
+    transition: all 0.3s ease;
+}
+
+
+footer a:hover {
+    color: #3F0753;
+
+}
+
+#Copyright {
+    padding-bottom: 20px;
+}
+
+
+@media (max-width: 720px) {
+    .portifolio h1 {
+        text-align: center;
+    }
+
+}
+
+/* telas medias */
+@media (max-width: 920px) {
+
+    .cards-produtosServicos {
+        grid-template-columns: auto auto;
+    }
+
+    .card {
+        width: 100%;
+
+    }
+
+    .card-img {
+        width: 100%;
+        height: 150px;
+
+    }
+
+    .card-img img {
+        width: 300px;
+
+    }
+
+    #cards-otimizacao {
+        grid-template-columns: auto auto;
+    }
+
+
+    #Copyright {
+        padding-top: 50px;
+        padding-bottom: 20px;
+    }
+
+}
+
+/* telas grande */
+@media (min-width: 920px) {
+    #nav-container {
+        display: none;
+    }
+
+    .cards-produtosServicos {
+        grid-template-columns: auto auto auto;
+
+    }
+
+    .card {
+        transition: all 0.3s ease;
+    }
+
+    .card:hover {
+        transform: scale(1.1);
+    }
+
+    .card-img {
+        width: 100%;
+        height: 150px;
+
+    }
+
+    .card-img img {
+        width: 300px;
+
+    }
+
+
+    #cards-otimizacao {
+        grid-template-columns: auto auto auto auto;
+
+    }
+
+    .card-icon {
+        transition: all 0.3s ease;
+    }
+
+
+    .card-icon:hover {
+        transform: scale(1.1);
+        background-color: #09000A;
+    }
+
+    #junte-se {
+        padding: 100px 200px 300px 200px;
+        justify-items: center;
+    }
+
+    #junte-se h1 {
+        color: #09000A;
+        text-align: center;
+        font-size: 30px;
+        margin-bottom: 30px;
+    }
+
+    footer ul{
+        margin-bottom: 20px;
+    }
+
+    footer a {
+        font-size: 30px;
+        transition: all 0.3s ease;
+
+    }
+
+
+
+
+    #Copyright {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+
+}
+
+
+@media (max-width: 620px) {
+
+    .cards-produtosServicos {
+        grid-template-columns: auto;
+
+    }
+
+    #cards-otimizacao {
+        grid-template-columns: auto;
+    }
+
+
+}
