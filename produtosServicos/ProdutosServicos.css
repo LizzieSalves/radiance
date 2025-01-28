@@ -265,7 +265,7 @@ footer {
     background: linear-gradient(to bottom, #E4DAFD, #DA60E0, #3F0753);
     justify-items: center;
     height: auto;
-    
+
 
 }
 
@@ -307,6 +307,8 @@ footer a:hover {
 /* telas medias */
 @media (max-width: 920px) {
 
+
+
     .cards-produtosServicos {
         grid-template-columns: auto auto;
     }
@@ -341,6 +343,12 @@ footer a:hover {
 
 /* telas grande */
 @media (min-width: 920px) {
+
+    
+    .logo {
+        width: 450px;
+    }
+    
     #nav-container {
         display: none;
     }
@@ -397,7 +405,7 @@ footer a:hover {
         margin-bottom: 30px;
     }
 
-    footer ul{
+    footer ul {
         margin-bottom: 20px;
     }
 
