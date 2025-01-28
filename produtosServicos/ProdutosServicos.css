@@ -17,6 +17,7 @@ nav {
 #nav-container {
     /* padding: 40px 30px 0px 0px; */
     justify-self: right;
+    padding: 40px 30px 0px 0px;
     border: #09000A;
     position: absolute;
     z-index: 0;
@@ -24,7 +25,6 @@ nav {
     width: 100%;
     display: flex;
     justify-content: flex-end;
-    
 }
 
 #nav-container img {
@@ -37,6 +37,11 @@ nav {
     padding: 10px 10px 0px 0px;
     background-color: transparent;
     border: transparent;
+    transition: all 0.3s ease;
+}
+
+#btn-burguer img{
+    pointer-events: none;
 }
 
 #nav-mobile {
@@ -92,6 +97,7 @@ nav {
     padding-top: 80px;
     align-content: center;
     justify-items: center;
+    margin-top: 153px;
 
 }
 
@@ -467,10 +473,7 @@ footer {
         font-size: 30px;
         margin-bottom: 30px;
     }
-/* 
-    #link-footer {
-        gap: 50px;
-    } */
+
 
     footer a {
         font-size: 30px;
