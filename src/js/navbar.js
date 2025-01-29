@@ -44,8 +44,6 @@ function ocultarNav() {
     navContainer.style.display = 'none';
     navBarTaAberta = false; // Navbar ta fechada entao atualiza o valor da varivel
 
-    btnBurguerNav.style.transform = 'rotate(0deg)';
-
     //remove os eventos adicionados
     document.removeEventListener('click', verificaCliqueForaTela);
     document.removeEventListener('touchend', verificaCliqueForaTela);
