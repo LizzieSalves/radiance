@@ -12,6 +12,7 @@
 
 <body>
     <nav>
+
         <div id="nav-mobile">
             <ul>
                 <li>
@@ -31,11 +32,32 @@
                 </li>
             </ul>
         </div>
+
         <div id="nav-container">
             <button onclick="navMobileMostrar()" id="btn-burguer">
                 <img src="/src/icon/burger-bar.png" alt="">
             </button>
         </div>
+        <div id="nav-mobile">
+            <ul>
+                <li>
+                    <a href="#">Home</a>
+                </li>
+                <li>
+                    <a href="#">Sobre Nós</a>
+                </li>
+                <li>
+                    <a href="#">Nosso História</a>
+                </li>
+                <li>
+                    <a href="#">Produtos e Serviços</a>
+                </li>
+                <li>
+                    <a href="#">Contato</a>
+                </li>
+            </ul>
+        </div>
+        
 
         <!-- Nav dando erro ao manipular o dom para mostar e ocupar ao clicar aaaaaaaaaaaaaaaaaa eu odeio js -->
 
@@ -44,7 +66,7 @@
     </nav>
 
     <main>
-        <!-- ORIGEM -->
+        <!-- Inicio -->
         <section id="inicio">
             <div class="container">
                 <img src="/src/logos/logo-radiance-light.png" alt="" class="logo">
@@ -72,12 +94,9 @@
 
                 </div>
 
-                <!-- card-btn = card
-                 card = descrição -->
-
 
                 <section class="cards-produtosServicos">
-                    <!-- linha 1 -->
+               
                     <div class="card">
                         <div class="card-img">
                             <img src="/src/sistemasWeb/sistema.png" alt="">
@@ -301,21 +320,22 @@
         </section>
 
         <footer>
+            
             <img src="/src/logos/logo-radiance-dark.png" alt="" class="logo">
-            <ul>
-                <li>
+            <ul id="link-footer">
+                <li id="link-home">
                     <a href="">Home</a>
                 </li>
-                <li>
+                <li id="link-sobre">
                     <a href="">Sobre Nós</a>
                 </li>
-                <li>
+                <li id="link-historia">
                     <a href="">Nosso História</a>
                 </li>
-                <li>
-                    <a href="">Produtos e Serviços</a>
+                <li id="link-produtosServicos">
+                    <a href="" >Produtos e Serviços</a>
                 </li>
-                <li>
+                <li  id="link-contato">
                     <a href="">Contato</a>
                 </li>
             </ul>

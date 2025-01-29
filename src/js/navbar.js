@@ -14,7 +14,7 @@ function navMobileMostrar() {
 
     navContainer.style.display = 'block';
 
-    btnBurguerNav.style.transform = 'rotate(90deg)'; // efeitozinho de virar o btn-burguer se n gostar pode tirar kk
+    nav.style.backgroundColor = '#DA60E0';
 
     document.addEventListener('click', verificaCliqueForaTela ); // Evento de clique em qualquer lugar da tela chama a funcao verificaCliqueForaTela
     
