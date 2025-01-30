@@ -13,3 +13,8 @@
 a{
     text-decoration: none;
 }
+
+#main-content{
+    width: 100vw;
+    height: 100vh;
+}
