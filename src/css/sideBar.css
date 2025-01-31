@@ -1,0 +1,30 @@
+.sidebar {
+    position: relative;
+    width: 50px; /* Largura da barra lateral */
+    height: 100%; /* Ocupa a altura total */
+    display: flex;
+    justify-content: center;
+  }
+  
+  .line {
+    position: absolute;
+    width: 2px;
+    height: calc(100% - 50px); /* Ajusta altura com base nos círculos */
+    background-color: #fff; /* Cor da linha */
+    top: 50px; /* Alinha com o primeiro círculo */
+  }
+  
+  .circle {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    background-color: #a28eff; /* Cor dos círculos */
+    border: 2px solid #fff; /* Borda dos círculos */
+    border-radius: 50%;
+    transform: translateX(-50%);
+    left: 50%; /* Centraliza os círculos na linha */
+  }
+
+
+
+  

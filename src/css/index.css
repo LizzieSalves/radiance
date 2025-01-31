@@ -670,7 +670,7 @@
 }
 
 footer {
-    background-color: #09000A;
+    background: linear-gradient(to bottom, #410D91, #DA60E0, #3F0753);
     width: 100%;
     text-align: center;
     padding: 20px 0;
@@ -703,7 +703,7 @@ footer .logo {
 }
 
 #link-footer a:hover {
-    color: #C2A3F4;
+    color: #3F0753;
 }
 
 .redes {
