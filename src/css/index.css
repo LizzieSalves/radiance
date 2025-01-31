@@ -43,6 +43,7 @@
     #logo-content-home {
         flex-basis: 50%;
 
+
         .logo-home{
             padding: 0 120px;
         }
@@ -94,8 +95,10 @@
 @media (min-width: 1100px) {
     #info-content-home {
         flex-basis: 50%;
-        padding: 100px 100px;
-        gap: 7rem;
+        height: 100vh;
+        padding: 100px;
+        
+        gap: 4rem;
         text-align: start;
 
         h1{
@@ -103,7 +106,7 @@
         }
         
         p{
-            font-size: 1.8rem;
+            font-size: 1.2rem;
             line-height: 30px;
             margin-bottom: 30px;
             text-align: center;
