@@ -46,10 +46,18 @@
                 </div>
 
                 <div class="social-icons-home">
-                    <img src="./src/icon/redes/instagram.png" alt="Icone do Instagram">
-                    <img src="./src/icon/redes/whatsapp.png" alt="Icone do Whatsapp">
-                    <img src="./src/icon/redes/linkedin-logo.png" alt="Icone do Linkedin">
-                    <img src="./src/icon/redes/github.png" alt="Icone do Github">
+                    <a href="#">
+                        <img src="./src/icon/redes/instagram.png" alt="Icone do Instagram">
+                    </a>
+                    <a href="#">
+                        <img src="./src/icon/redes/whatsapp.png" alt="Icone do Whatsapp">
+                    </a>
+                    <a href="#">
+                        <img src="./src/icon/redes/linkedin-logo.png" alt="Icone do Linkedin">
+                    </a>
+                    <a href="#">
+                        <img src="./src/icon/redes/github.png" alt="Icone do Github">
+                    </a>
                 </div>
             </div>
             <div id="info-content-home">
@@ -207,15 +215,24 @@
                         <input placeholder="‎" type="email" id="email" name="email" required="">
                         <label for="email">E-mail:</label>
                     </div>
-                    <div class="group">
-                        <select id="motivo" name="motivo" required>
-                            <option value="" selected disabled></option>
-                            <option value="duvida">Dúvida</option>
-                            <option value="suporte">Suporte</option>
-                            <option value="outro">Outro</option>
-                        </select>
-                        <label for="motivo">Motivo:</label>
+
+                    <div class="group-two-items">
+                        <div class="group">
+                            <input placeholder="‎" type="text" required="">
+                            <label for="telefone">Telefone:</label>
+                        </div>
+    
+                        <div class="group">
+                            <select id="motivo" name="motivo" required>
+                                <option value="" selected disabled></option>
+                                <option value="duvida">Dúvida</option>
+                                <option value="suporte">Suporte</option>
+                                <option value="outro">Outro</option>
+                            </select>
+                            <label for="motivo">Motivo:</label>
+                        </div>
                     </div>
+                    
                     
                     <div class="group">
                         <textarea placeholder="‎" id="comment" name="comment" rows="5" required=""></textarea>
@@ -225,6 +242,37 @@
                 </form>
             </div>
         </section>
+
+        <footer>
+            
+            <img src="/src/logos/logo-radiance-dark.png" alt="" class="logo">
+            <ul id="link-footer">
+                <li id="link-home">
+                    <a href="">Home</a>
+                </li>
+                <li id="link-sobre">
+                    <a href="">Sobre Nós</a>
+                </li>
+                <li id="link-historia">
+                    <a href="">Nosso História</a>
+                </li>
+                <li id="link-produtosServicos">
+                    <a href="" >Produtos e Serviços</a>
+                </li>
+                <li  id="link-contato">
+                    <a href="">Contato</a>
+                </li>
+            </ul>
+            <div class="redes">
+                <img src="/src/icon/redes/instagram.png" alt="" class="redes">
+                <img src="/src/icon/redes/whatsapp.png" alt="" class="redes">
+                <img src="/src/icon/redes/linkedin-logo.png" alt="" class="redes">
+                <img src="/src/icon/redes/github.png" alt="" class="redes">
+            </div>
+            <div id="Copyright">
+                Copyright © 2023-2025 | Radiance ✨  
+            </div>
+        </footer>
     </main>
     <script src="./src/js/navbar.js"></script>
 </body>
